@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "powershell -ExecutionPolicy Bypass -File server.ps1"
+    "dev": "npx -y http-server ."
   },
   "dependencies": {
     "is-odd": "^3.0.1"
